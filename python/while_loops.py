@@ -25,13 +25,22 @@ while idx<len(list):
     idx+=1"""
     
 # Question 5 : search for a number x in this tuple using loops:
-x=int (input("Enter searching number : "))
+"""x=int (input("Enter searching number : "))
 tup=(1,4,9,16,25,36,49,64,81,100)
 idx=0
 while idx<len(tup):
     if (tup[idx]==x):
         print("number is found at index : " , idx)
-        idx+=1
+        idx+=1"""
+        
+# Question 6 : WAP to find the sum of first n natural number .
+n=int (input("Enter the number : "))
+i=1
+sum=0
+while i<=n:
+    sum+=i
+    i+=1
+print("the sum of number ",n, " is ", sum)
 
     
     

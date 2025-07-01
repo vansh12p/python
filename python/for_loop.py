@@ -17,3 +17,29 @@ for val in nums :
         print("num is found idx " , idx)
     idx+=1"""
         
+# Question 3 : print from 1 to 100
+"""for i in range (1,101):
+    print(i)"""
+    
+# Question 4 : print numbers from 100 to 1
+"""for i in range (100,0,-1):
+    print(i) """
+    
+# Question 5 : print the multiplication table of a number n
+"""n=int(input("Enter an number : "))
+for i in range (1,11):
+    print(i*n)"""
+    
+# Question 6 : WAP to find the sum of first n natural number.
+"""n=int(input("Enter the number : "))
+sum=0
+for i in range(1,n+1,1):
+    sum+=i
+print("the sum of number ",n, " is ", sum)"""
+    
+# Question 7 : WAP to find the factorial of first n numbers .
+n=int(input("Enter the number : "))
+fact=1
+for i in range(1,n+1):
+    fact*=i
+print("factorial of ",n, "is " , fact)    
