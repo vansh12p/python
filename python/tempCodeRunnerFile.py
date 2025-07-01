@@ -1,4 +1,7 @@
-i=1
-while i<=100:
-    print(i)
-    i+=1
+n=int(input("Enter the value : "))
+a,b=0,1
+count=0
+while count<n:
+    print(a,end = ' , ')
+    a,b=b,a+b
+    count+=1

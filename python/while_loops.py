@@ -34,13 +34,67 @@ while idx<len(tup):
         idx+=1"""
         
 # Question 6 : WAP to find the sum of first n natural number .
-n=int (input("Enter the number : "))
+"""n=int (input("Enter the number : "))
 i=1
 sum=0
 while i<=n:
     sum+=i
     i+=1
-print("the sum of number ",n, " is ", sum)
+print("the sum of number ",n, " is ", sum)"""
 
+# Question 7 : print all even numbers b/w 1 and 50 .
+"""n= int(input("Enter the value of n : "))
+i=2
+while i<=n:
+    print(i)
+    i+=2"""
     
+# Question 8 : Find the factorial of a number.
+"""n=int(input("Enter the value : "))
+fact=1
+total=1
+while fact<=n:
+    total*=fact
     
+    fact+=1
+print(total) """   
+
+# Question 9 : count digit in a number.
+"""n=int(input("Enter the value : "))
+count=0
+while n>0:
+    n//=10
+    count+=1
+print("Digit count is ", count)"""
+
+
+# Question 10 : Reverse a number (eg. 123-321)
+"""n=int(input("Enter the value : "))
+rev=0
+while n>0:
+    digit=n%10
+    rev=rev*10+digit
+    n=n//10
+print("Reversed number is ",rev)"""
+
+# Question 11 : check if a number is palindrome .
+"""n=int(input("Enter the value : "))
+temp=n
+rev=0
+while n>0:
+    digit= n%10
+    rev=rev*10+digit
+    n=n//10
+if(rev==temp):
+    print("It is palindrome")
+else:
+    print("It is not palindrome")"""
+
+# Question 12 : Print Fibonacci series up to n terms.
+"""n=int(input("Enter the value : "))
+a,b=0,1
+count=0
+while count<n:
+    print(a,end = ' , ')
+    a,b=b,a+b
+    count+=1"""
