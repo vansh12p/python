@@ -135,3 +135,16 @@ if is_prime and n>1:
     print("prime")
 else:
     print("not prime")"""    
+    
+# Question 16 : Print numbers n to 1:
+"""n=int(input("Enter the value : "))
+while n>=1:
+    print(n)
+    n-=1"""
+    
+
+# Question 17 : Square from 1 to n:
+"""n=int(input("Enter the value : "))
+while n>=1:
+    print(n**2)
+    n-=1"""
