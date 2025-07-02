@@ -1,7 +1,3 @@
-n=int(input("Enter the value : "))
-a,b=0,1
-count=0
-while count<n:
-    print(a,end = ' , ')
-    a,b=b,a+b
-    count+=1
+n=int(input("Enter the number : "))
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")
