@@ -98,3 +98,40 @@ while count<n:
     print(a,end = ' , ')
     a,b=b,a+b
     count+=1"""
+
+# Question 13 : Find whether a number is an Armstrong number.
+"""n=int(input("Enter the value : "))
+temp=n
+sum=0
+order=len(str(n))
+while n>0:
+    digit=n%10
+    sum+=digit**order
+    n//=10
+if sum==temp:
+    print("that number is armstrong")
+else:
+    print("that is not armstrong")"""
+
+# Question 14 : Take user input repeatedly until they enter 0.
+"""while True:
+    n=int(input("Enter the value : "))
+    if n==0:
+       print("the code is end : ")
+       break
+    else:
+        print("the enter number is ", n)"""
+        
+# Question 15 : Check if a number is prime
+"""n=int(input("Enter the value : "))
+i=2
+is_prime= True
+while i<n:
+    if n%i==0:
+        is_prime=False
+        break
+    i+=1
+if is_prime and n>1:
+    print("prime")
+else:
+    print("not prime")"""    
