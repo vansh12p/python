@@ -80,4 +80,38 @@ for i in list:
 for ch in n:
     print(ch)"""
  
+
+# Question 14 : Factorial:
+"""n=int(input("Enter an number : "))
+fact=1
+for i in range(1,n+1):
+    fact*=i
+print(fact)"""
+
+
+# Question 15 : Create a pattern:
+
+"""*
+   **
+   ***"""
+"""sum="*"
+for i in range(1,4):
+   
+    print(sum*i)
+    i+=1"""
     
+    
+# Question 16 : Print all elements of a list in reverse using a for loop.
+"""list = [1, 2, 3, 4, 5]
+for i in reversed(list):
+    print(i)"""
+    
+    
+# Question 17 : Count how many times a character appears in a string.
+"""s=input("Enter an string : ")
+ch=input("Enter an charcter : ")
+count=0
+for i in s:
+    if i==ch:
+        count+=1
+print(count)"""
