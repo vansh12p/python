@@ -22,7 +22,7 @@ print_ele(list)"""
 fact(8)"""       
     
 # Question 4 : WAF to convert USD to INR
-def usd_to_inr(usd):
+"""def usd_to_inr(usd):
     inr=78*usd
     print(inr)
-usd_to_inr(3)
+usd_to_inr(3)"""
