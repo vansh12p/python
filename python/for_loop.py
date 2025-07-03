@@ -115,3 +115,40 @@ for i in s:
     if i==ch:
         count+=1
 print(count)"""
+
+
+# Question 18 : Find all vowels in a string using a for loop.
+"""str=input("Enter an string : ")
+vowels="aeiouAEIOU"
+for ch in str:
+    if ch in vowels:
+        print(ch)"""
+    
+
+# Question 19 : Check if a list contains a given item.
+"""lst = [10, 20, 30]
+x=int(input("Enter the number : "))
+found=False
+for item in lst:
+    if item==x:
+        found=True
+        break
+print("found" if found else "not found")"""
+
+
+# Question 20 : Print 100 to 1:
+"""for i in range(100,0,-1):
+    print(i)"""
+    
+    
+# Question 21 : Square of list items:
+"""lst = [1, 2, 3, 4]
+for item in lst:
+    print(item**2)"""
+    
+    
+# Question 22 : Loop through a dictionary and print keys and values.
+"""d={"a":1,"b":2}
+for key in d:
+    print(f"{key}:{d[key]}")"""
+
