@@ -26,3 +26,4 @@ fact(8)"""
     inr=78*usd
     print(inr)
 usd_to_inr(3)"""
+
