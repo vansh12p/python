@@ -119,8 +119,8 @@ print(is_prime(n))"""
 
 
 # Question 15 : Write a function is_armstrong(n) that returns True if n is an Armstrong number.
-def is_armstrong(n):
+"""def is_armstrong(n):
     order=len(str(n))
     total=sum(int(digit)**order for digit in str(n))
     return total==n
-print(is_armstrong(153))
+print(is_armstrong(153))"""
