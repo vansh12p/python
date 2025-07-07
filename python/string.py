@@ -33,8 +33,8 @@ else:
     print("not palindrome")"""
     
 # Question 6 : Count words in a sentence
-sentence = input("Enter an string : ")
+"""sentence = input("Enter an string : ")
 word=sentence.split()
 count=len(word)
-print(count)
+print(count)"""
     
